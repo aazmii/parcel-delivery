@@ -52,7 +52,6 @@ class GoogleMapTest extends ConsumerWidget {
                 if (geolocation == null) {
                   return;
                 }
-
                 // ref
                 //     .read(moveCameraLocationProvider.notifier)
                 //     .update((state) => geolocation);

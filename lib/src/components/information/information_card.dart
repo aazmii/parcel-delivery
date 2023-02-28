@@ -53,7 +53,7 @@ class InfromationCard extends StatelessWidget {
                             child: Padding(
                               padding: EdgeInsets.all(8.0),
                               child: Icon(
-                                Icons.whatsapp,
+                                Icons.phone,
                                 color: Colors.green,
                                 size: 40,
                               ),
