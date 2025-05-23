@@ -2,13 +2,13 @@ import 'package:flutter/material.dart'
     show
         BorderRadius,
         BorderSide,
-        CardTheme,
         Colors,
         ElevatedButton,
         ElevatedButtonThemeData,
         InputDecorationTheme,
         OutlineInputBorder,
-        RoundedRectangleBorder;
+        RoundedRectangleBorder,
+        CardThemeData;
 
 final roundedButtonStyle = ElevatedButton.styleFrom(
   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
@@ -23,9 +23,8 @@ final elevatedButtonTheme = ElevatedButtonThemeData(
 );
 
 final textFieldBorder = InputDecorationTheme(
-  focusedBorder: OutlineInputBorder(
-      borderSide: const BorderSide(color: Colors.red),
-      borderRadius: BorderRadius.circular(15)),
+  focusedBorder:
+      OutlineInputBorder(borderSide: const BorderSide(color: Colors.red), borderRadius: BorderRadius.circular(15)),
   enabledBorder: OutlineInputBorder(
     borderSide: const BorderSide(
       color: Colors.red,
@@ -34,7 +33,7 @@ final textFieldBorder = InputDecorationTheme(
   ),
 );
 
-final cardTheme = CardTheme(
+final cardTheme = CardThemeData(
   color: Colors.white,
   shape: RoundedRectangleBorder(
     borderRadius: BorderRadius.circular(10),

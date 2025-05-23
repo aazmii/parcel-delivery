@@ -14,11 +14,10 @@ import 'package:flutter/material.dart'
         Scaffold,
         Text,
         Widget;
-
-import 'package:flutter_gen/gen_l10n/app_localizations.dart'
-    show AppLocalizations;
+ 
 import 'package:flutter_riverpod/flutter_riverpod.dart'
     show ConsumerWidget, WidgetRef;
+import 'package:pattern_m/src/localization/app_localizations.dart';
 import 'package:pattern_m/src/localization/loalization.dart';
 import 'package:pattern_m/src/modules/ScreenSize/small_screen.dart';
 import 'package:pattern_m/src/modules/deliveryman.home/view/home.view.dart';
